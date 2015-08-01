@@ -11,9 +11,7 @@ class VacasBotServer():
     BOT_ID = ""
     BOT_NAME = ""
 
-    SLEEP_TIME = 5
-
-    last_message_timestamp = {}
+    SLEEP_TIME = 3
 
     def run(self):
         self.telegram = TelegramAPIHelper(self.TOKEN, self.BOT_NAME)

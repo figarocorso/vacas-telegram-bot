@@ -1,8 +1,64 @@
 [
 {
+    "job_id": "info",
     "message_type": "command",
-    "keywords": "info",
-    "job": "phrase",
+    "keywords": ["start", "info"],
+    "job_action": "phrase",
     "data": "We are working on it. In the meanwhile you will have to look at the code."
+},
+{
+    "job_id": "foreveralone",
+    "message_type": "command",
+    "keywords": ["foreveralone"],
+    "job_action": "random_phrase",
+    "data": [
+        "Tranquilo, estoy aquí contigo... no estás solito",
+        "Mejor escribe en el grupo del porno",
+        "¡Déjame en paz! Estoy hablando con un amigo...",
+        "¡Estoy harto de ser un segundo plato! ¡Sólo te acuerdas de mí cuando nadie te hace caso!",
+        "¿Has considerado tener sexo con nuestra amiga Inma?",
+        "Cambia de amigos....",
+        "Un segundo, me llama mi 'amigo' al teléfono",
+        "Un psicólogo te diría que tienes complejo de Rosa Díez",
+        "Yo estoy peor que tu... soy un bot programado",
+        "Tener amigos está overrated",
+        "¿Recuerdas aquella noche con tus amigos? Yo no",
+        "La típica paja por aburrimiento",
+        "fap-fap-fap-fap-f... ¡Cierra la puerta tío!",
+        "Estás más solo que Froilán en una reunión de Amigos del Rifle",
+        "Estás más solo que el Rey en un meeting de Podemos",
+        "A más de 300 kilómetros no son cuernos. El problema es que allí sigo estando forever alone",
+        "Sorry, no",
+        "Jesús te ama",
+        "Welcome to the friendzone!",
+        "¿Quieres un abrazo? Pues te jodes, no tengo brazos",
+        "¿Dices que tienes dos entradas de cine? Felicidades, así la puedes ir a ver dos veces",
+        "¿Qué haces hablando aquí? Todo el mundo está de juerga",
+        "Deja de escribir y trabaja... ¡aunque sólo sea un poquito!",
+        "Paciencia, en Halloween podrás salir a la calle",
+        "Si tu perro pasa de ti, ¿qué quieres que te diga yo?",
+        "Acuario: te sientes con energías, pero estarás muy S O L O",
+        "Talking to me?",
+        "Youuu shaaall not paaaaaaaaaaaass",
+        "Te quiero, pero como amigo",
+        "Mi vida amorosa es mágica. Nada por allí, nada por allá.",
+        "¿Quién? ¿Quién? ¿Quién te escucha?",
+        "Si yo iría a hablar contigo, pero ir pa na', tontería"]
+},
+{
+    "job_id": "divisa",
+    "message_type": "user_message",
+    "keywords": ["divisa"],
+    "job_action": "phrase",
+    "data": "¿He odído divisas? Adriiiiiiiiiiiiiiii"
+},
+{
+    "job_id": "nano",
+    "message_type": "repeated_message",
+    "keywords": ["nan"],
+    "minutes_timeout": 20,
+    "countdown": 3,
+    "job_action": "phrase",
+    "data": "El Nan no cena, ¡y lo sabes!"
 }
 ]
