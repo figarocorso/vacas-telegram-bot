@@ -48,14 +48,14 @@
 {
     "job_id": "divisa",
     "message_type": "user_message",
-    "keywords": ["divisa"],
+    "keywords": ["divisa", "divisas"],
     "job_action": "phrase",
-    "data": "¿He odído divisas? Adriiiiiiiiiiiiiiii"
+    "data": "¿He oído divisas? Adriiiiiiiiiiiiiiii"
 },
 {
     "job_id": "nano",
-    "message_type": "repeated_message",
-    "keywords": ["nan"],
+    "message_type": "user_message",
+    "keywords": ["nan", "cena"],
     "minutes_timeout": 20,
     "countdown": 3,
     "job_action": "phrase",
