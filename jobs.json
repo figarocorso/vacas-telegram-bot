@@ -60,5 +60,19 @@
     "countdown": 3,
     "job_action": "phrase",
     "data": "El Nan no cena, ¡y lo sabes!"
+},
+{
+    "job_id": "el-mundo-today",
+    "message_type": "command",
+    "keywords": ["elmundotoday", "emt"],
+    "job_action": "blog_link",
+    "data": "http://www.elmundotoday.com/feed/"
+},
+{
+    "job_id": "xkcd",
+    "message_type": "command",
+    "keywords": ["xkcd"],
+    "job_action": "blog_link",
+    "data": "http://xkcd.com/rss.xml"
 }
 ]
