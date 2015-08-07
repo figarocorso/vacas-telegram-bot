@@ -74,5 +74,13 @@
     "keywords": ["xkcd"],
     "job_action": "blog_link",
     "data": "http://xkcd.com/rss.xml"
+},
+{
+    "job_id": "el-al",
+    "message_type": "user_message",
+    "keywords": ["el al", "cheater"],
+    "frequency": 5,
+    "job_action": "phrase",
+    "data": "El Al, ¡el Al es un cheater!"
 }
 ]
