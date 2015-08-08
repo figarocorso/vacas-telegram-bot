@@ -31,4 +31,4 @@ class VacasBotServer():
     def _process_message(self, message):
         answer = self.message_processor.get_answer(message)
         if answer:
-            self.telegram.send_message(message.chat_id, answer)
+            self.telegram.reply(message, answer)

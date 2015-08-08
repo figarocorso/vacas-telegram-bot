@@ -76,11 +76,18 @@
     "data": "http://xkcd.com/rss.xml"
 },
 {
-    "job_id": "el-al",
+    "job_id": "al-cheater",
     "message_type": "user_message",
     "keywords": ["el al", "cheater"],
-    "frequency": 5,
+    "frequency": 10,
     "job_action": "phrase",
     "data": "El Al, ¡el Al es un cheater!"
+},
+{
+    "job_id": "podemita",
+    "message_type": "command",
+    "keywords": ["podemita"],
+    "job_action": "audio",
+    "data": "AwADBAADnQAD2zhoAAEwgy5VFc1_tgI"
 }
 ]
