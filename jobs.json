@@ -79,7 +79,7 @@
     "job_id": "al-cheater",
     "message_type": "user_message",
     "keywords": ["el al", "cheater"],
-    "frequency": 10,
+    "frequency": 20,
     "job_action": "phrase",
     "data": "El Al, ¡el Al es un cheater!"
 },
