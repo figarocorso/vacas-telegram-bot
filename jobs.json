@@ -48,7 +48,7 @@
 {
     "job_id": "divisa",
     "message_type": "user_message",
-    "keywords": ["divisa", "divisas"],
+    "keywords": ["divisa", "divisas", "euro", "euros", "dolar", "dólares", "franco", "francos", "libra", "libras", "€", "$", "£", "chf"],
     "job_action": "phrase",
     "data": "¿He oído divisas? Adriiiiiiiiiiiiiiii"
 },
