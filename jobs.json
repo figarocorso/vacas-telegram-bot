@@ -89,5 +89,16 @@
     "keywords": ["podemita"],
     "job_action": "audio",
     "data": "AwADBAADoAAD2zhoAAGKrGUa1_ytWgI"
+},
+{
+    "job_id": "cabron",
+    "message_type": "user_message",
+    "keywords": ["a", "el", "la", "y", "que", "o", "de", "mi", "me", "en", "los", "las", "del", "se", "no"],
+    "frequency": 1,
+    "job_action": "random_phrase",
+    "data": [
+        "Te van a dar arcadas...",
+        "... cuando te comas mis pelotas rasuradas"
+    ]
 }
 ]
