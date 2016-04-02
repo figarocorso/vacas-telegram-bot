@@ -100,5 +100,21 @@
         "Te van a dar arcadas...",
         "... cuando te comas mis pelotas rasuradas"
     ]
+},
+{
+    "job_id": "good_morning_poll",
+    "message_type": "user_message",
+    "minutes_timeout": 1200,
+    "keywords": ["Buenos días", "Buenos dias", "buenos dias"],
+    "job_action": "custom_poll",
+    "data": [
+        "¡Buenos días a todas las Vacas 🐄 !",
+        "¡Buenos días! (Como me pesa la cola al levantarme 😴 )",
+        "¡Buenos días! (Hoy va a trabajar el gato 🐈 )",
+        "¡Buenos días! (Estoy on fire!!! 🔥 )",
+        "¡Buenos días! (Os quiero a todos y a todas 💓)",
+        "¡Buenos días! (Quién coño ha encendido la luz 😡) ",
+        "¡Buenos días! (A buenas horas se levantan estos, yo llevo 3 horas currando...) "
+    ]
 }
 ]
