@@ -116,5 +116,16 @@
         "¡Buenos días! (Quién coño ha encendido la luz 😡) ",
         "¡Buenos días! (A buenas horas se levantan estos, yo llevo 3 horas currando...) "
     ]
+},
+{
+    "job_id": "gallinas",
+    "message_type": "user_message",
+    "keywords": ["ipad", "apuesta", "araworks"],
+    "frequency": 100,
+    "job_action": "random_phrase",
+    "data": [
+        "Ara Cooo Co Co Co Co! 🐔",
+        "Por aquí me dicen que Araworks no tiene huevos a jugarse un iPad..."
+    ]
 }
 ]
